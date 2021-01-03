@@ -34,5 +34,9 @@ var typed = new Typed(".typing", {
   strings: ["a Software Engineer", "an epistemophilic"],
   typeSpeed: 100,
   backSpeed: 60,
-  loop: false,
+  loop: true,
 });
+
+// rellax lib
+
+var rellax = new Rellax(".rellax");
